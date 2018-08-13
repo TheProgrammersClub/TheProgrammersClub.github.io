@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 220">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+      }
+
+      .cls-2 {
+        fill: #a4c639;
+      }
+    </style>
+  </defs>
+  <g id="Android" transform="translate(-618 -613)">
+    <rect id="Rectangle_13" data-name="Rectangle 13" class="cls-1" width="220" height="220" rx="60" transform="translate(618 613)"/>
+    <g id="Android-2" data-name="Android" transform="translate(628 623)">
+      <path id="Path_12" data-name="Path 12" class="cls-2" d="M63.23,69.828a4,4,0,1,1,5.657-5.656L100,95.284l31.113-31.112a4,4,0,1,1,5.657,5.656L102.828,103.77a4,4,0,0,1-5.656,0Z"/>
+      <path id="Path_13" data-name="Path 13" class="cls-2" d="M100,74a47,47,0,0,1,47,47v17H53V121A47,47,0,0,1,100,74ZM76,114a7,7,0,1,0,7-7,7,7,0,0,0-7,7Zm35,0a7,7,0,1,0,7-7,7,7,0,0,0-7,7Z"/>
+    </g>
+  </g>
+</svg>
