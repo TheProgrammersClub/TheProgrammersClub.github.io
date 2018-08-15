@@ -62,22 +62,50 @@ time, mark, audio, video {
     align-items: center;
 }
 
-.wrapper h1 {
+h1 {
     font-size: 72px;
     line-height: 1.2;
     font-weight: 900;
     margin-bottom: 20px;
 }
 
-.wrapper .lead {
-    max-width: 710px;
+h2 {
+    font-weight: 900;
+    font-size: 57px;
+    line-height: 1.4;
+    margin-bottom: 20px;
 }
 
-.wrapper p {
+h3 {
+    font-weight: 900;
+    font-size: 48px;
+    line-height: 1.2;
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 18px;
+    line-height: 1.5;
+    font-weight: 400;
+}
+
+.sub-heading {
     font-size: 30px;
     margin-bottom: 28px;
     font-weight: 400;
     line-height: 1.4;
+}
+
+.body-heading {
+    font-weight: 400;
+    font-size: 18px;
+    text-align: left;
+    line-height: 1.7;
+    margin-bottom: 10px;
+}
+
+.wrapper .lead {
+    max-width: 710px;
 }
 
 .wrapper .blue-button {
@@ -109,11 +137,6 @@ time, mark, audio, video {
 }
 
 /* Meetups & Events */
-#events .meetups-events-heading {
-    font-weight: 900;
-    font-size: 57px;
-    line-height: 1.4;
-}
 
 .see-more-events {
     color: #05f;
@@ -140,17 +163,13 @@ time, mark, audio, video {
     text-decoration: none;
 }
 
-/*.see-more-events:hover {*/
-/*text-decoration: underline;*/
-/*}*/
-
 .see-more-events::after {
     content: url(../../assets/chevron-right.svg);
     color: #05f;
     vertical-align: sub;
 }
 
-/* Letest event*/
+/* Latest event*/
 
 #events .event {
     margin-bottom: 20px;
@@ -167,20 +186,6 @@ time, mark, audio, video {
     margin: 0 auto 40px;
     box-shadow: 0 8px 18px 0 rgba(0, 0, 0, .07), 0 1px 0 0 rgba(0, 0, 0, .07);
     border-radius: 58px;
-}
-
-.event .event-heading, .features .feature, #resources .resource-name {
-    font-weight: 900;
-    font-size: 48px;
-    line-height: 1.2;
-    margin-bottom: 20px;
-}
-
-.event .event-date, .event .event-location, .features .feature-info, #resources .resources-details {
-    font-weight: 400;
-    font-size: 18px;
-    text-align: left;
-    line-height: 1.7;
 }
 
 .event .event-date {
@@ -205,9 +210,6 @@ time, mark, audio, video {
 
 .event .event-info {
     color: #222;
-    line-height: 1.7;
-    font-size: 18px;
-    font-weight: 400;
     vertical-align: baseline;
     margin-bottom: 40px;
 }
@@ -223,10 +225,6 @@ time, mark, audio, video {
 }
 
 #hackathon .hackathon-heading {
-    font-size: 72px;
-    line-height: 1.2;
-    font-weight: 900;
-    margin-bottom: 20px;
     color: #fff;
 }
 
@@ -235,35 +233,14 @@ time, mark, audio, video {
 }
 
 #hackathon .hackathon-info {
-    font-size: 30px;
-    margin-bottom: 28px;
-    font-weight: 400;
-    line-height: 1.4;
     color: #CCCCCC;
 }
 
 /*Resources*/
-#resources .resources-headline {
-    font-size: 57px;
-    line-height: 1.4;
-    font-weight: 900;
-    margin-bottom: 20px;
-    text-align: center;
-}
-
-#resources .resources-info {
-    font-size: 30px;
-    margin-bottom: 28px;
-    font-weight: 400;
-    line-height: 1.4;
-    text-align: center;
-}
 
 .block {
     padding: 90px;
     text-align: left;
-    /*background-color: #FCF1F1;*/
-    /*border-radius: 4px;*/
 }
 
 #resources .resource-design {
@@ -280,18 +257,7 @@ img {
     vertical-align: middle;
 }
 
-#team .team-aim {
-    font-weight: 900;
-    font-size: 57px;
-    line-height: 1.4;
-    margin-bottom: 20px;
-}
-
 #team .team-moto {
-    font-size: 30px;
-    margin-bottom: 28px;
-    font-weight: 400;
-    line-height: 1.4;
     max-width: 1000px;
     width: 100%;
 }
@@ -299,10 +265,10 @@ img {
 /********************************** Footer **********************************/
 
 #footer .footer-heading {
-    font-weight: 900;
-    font-size: 57px;
-    line-height: 1.2;
-    margin-bottom: 20px;
+    /*font-weight: 900;*/
+    /*font-size: 57px;*/
+    /*line-height: 1.2;*/
+    /*margin-bottom: 20px;*/
     max-width: 450px;
     width: 100%;
     color: #fff;
@@ -344,9 +310,6 @@ img {
 #footer .footer-we {
     color: #CCCCCC;
 }
-
-
-
 
 /********************************** Media Queries **********************************/
 
