@@ -98,7 +98,7 @@ p {
 
 .body-heading {
     font-weight: 400;
-    font-size: 18px;
+    font-size: 17px;
     text-align: left;
     line-height: 1.7;
     margin-bottom: 10px;
@@ -362,6 +362,11 @@ img {
 
     .event .rounded-image {
         width: 180px;
+    }
+
+
+    .sub-heading {
+        font-size: 21px;
     }
 
     .block {
