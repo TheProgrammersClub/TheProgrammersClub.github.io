@@ -138,6 +138,15 @@ p {
 
 /* Meetups & Events */
 
+#events .event {
+    margin-bottom: 20px;
+    border-radius: 4px;
+    background-color: #FCF1F1;
+    padding: 90px;
+    text-align: left;
+    display: block;
+}
+
 .see-more-events {
     color: #05f;
     font-size: 24px;
@@ -170,16 +179,6 @@ p {
 }
 
 /* Latest event*/
-
-#events .event {
-    margin-bottom: 20px;
-    border-radius: 4px;
-    background-color: #FCF1F1;
-    padding: 90px;
-    width: calc(50% - 20px);
-    text-align: left;
-    display: block;
-}
 
 .event .rounded-image {
     width: 220px;
@@ -316,29 +315,176 @@ img {
 /*Extra small devices (portrait phones, less than 576px)*/
 /* Iphone 6 Plus*/
 @media (max-width: 575.98px) {
+    h1 {
+        font-size: 40px;
+        line-height: 1.1;
+        font-weight: 900;
+        margin-bottom: 20px;
+    }
+
+    h2 {
+        font-weight: 900;
+        font-size: 32px;
+        line-height: 1.2;
+        margin-bottom: 20px;
+    }
+
+    h3 {
+        font-weight: 900;
+        font-size: 28px;
+        line-height: 1.2;
+        /*margin-bottom: 20px;*/
+    }
+
+    .sub-heading {
+        font-size: 24px;
+        margin-bottom: 20px;
+        font-weight: 400;
+        line-height: 1.4;
+    }
+
+    #events .event {
+        margin-bottom: 20px;
+        border-radius: 4px;
+        background-color: #FCF1F1;
+        padding: 40px;
+        text-align: left;
+        display: block;
+    }
+
+    #hackathon .hackathon-info {
+        min-width: 350px;
+    }
+
+    .mobile-t-margin {
+        margin-top: 40px;
+    }
+
+    .event .rounded-image {
+        width: 180px;
+    }
+
+    .block {
+        padding: 40px;
+    }
+
+    #footer .footer-heading {
+        max-width: 250px;
+    }
+
+    #hackathon .hackathon-heading {
+        max-width: 350px;
+        text-align: center;
+    }
 
 }
 
 /*Small devices (landscape phones, 576px and up)*/
 /* Iphone 6 Plus landscape*/
 @media (min-width: 576px) and (max-width: 767.98px) {
+    h1 {
+        font-size: 48px;
+        line-height: 1.2;
+        font-weight: 900;
+        margin-bottom: 20px;
+        background-color: green;
 
+    }
+
+    h2 {
+        font-weight: 900;
+        font-size: 32px;
+        line-height: 1.4;
+        margin-bottom: 20px;
+    }
+
+    h3 {
+        font-weight: 900;
+        font-size: 28px;
+        line-height: 1.2;
+        /*margin-bottom: 20px;*/
+    }
 }
 
 /*Medium devices (tablets, 768px and up)*/
 /* Amzon Kindle landscape and Ipad landscape*/
 @media (min-width: 768px) and (max-width: 991.98px) {
+    h1 {
+        font-size: 48px;
+        line-height: 1.1;
+        font-weight: 900;
+        margin-bottom: 20px;
+    }
+
+    h2 {
+        font-weight: 900;
+        font-size: 57px;
+        line-height: 1.4;
+        margin-bottom: 20px;
+    }
+
+    h3 {
+        font-weight: 900;
+        font-size: 28px;
+        line-height: 1.2;
+        /*margin-bottom: 20px;*/
+    }
+
+    #events .event {
+        margin-bottom: 20px;
+        border-radius: 4px;
+        background-color: #FCF1F1;
+        padding: 90px;
+        width: calc(70% - 20px);
+        text-align: left;
+        display: block;
+    }
 
 }
 
 /*Large devices (desktops, 992px and up)*/
 /* Ipad Mini 2 */
 @media (min-width: 992px) and (max-width: 1199.98px) {
+    h1 {
+        font-size: 57px;
+        line-height: 1.1;
+        font-weight: 900;
+        margin-bottom: 20px;
+    }
+
+    h2 {
+        font-weight: 900;
+        font-size: 57px;
+        line-height: 1.4;
+        margin-bottom: 20px;
+    }
+
+    #events .event {
+        margin-bottom: 20px;
+        border-radius: 4px;
+        background-color: #FCF1F1;
+        padding: 90px;
+        width: calc(50% - 20px);
+        text-align: left;
+        display: block;
+    }
 
 }
 
 /*Extra large devices (large desktops, 1200px and up)*/
 /* Kindle */
 @media (min-width: 1200px) {
+
+    #events .event {
+        width: calc(50% - 20px);
+    }
+
+    .mobile-margin-r-8 {
+        margin-right: 8px;
+    }
+
+    .mobile-margin-l-8 {
+        margin-left: 8px;
+    }
 
 }
