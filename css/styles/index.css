@@ -1,0 +1,381 @@
+/********************************** Global **********************************/
+body {
+    font-family: 'Lato', sans-serif !important;
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+    color: #000;
+}
+
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    /*vertical-align: baseline;*/
+    background: transparent;
+}
+
+.margin-t-b {
+    margin-top: 120px;
+    margin-bottom: 120px;
+}
+
+.margin-t-b-160 {
+    margin-top: 160px;
+    margin-bottom: 160px;
+}
+
+.margin-t-b-80 {
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+
+.margin-t-120 {
+    margin-top: 120px;
+}
+
+.margin-t-80 {
+    margin-top: 80px;
+}
+
+.margin-t-60 {
+    margin-top: 60px;
+}
+
+.wrapper {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.wrapper h1 {
+    font-size: 72px;
+    line-height: 1.2;
+    font-weight: 900;
+    margin-bottom: 20px;
+}
+
+.wrapper .lead {
+    max-width: 710px;
+}
+
+.wrapper p {
+    font-size: 30px;
+    margin-bottom: 28px;
+    font-weight: 400;
+    line-height: 1.4;
+}
+
+.wrapper .blue-button {
+    padding: 16px 24px 15px;
+    background-color: #0055FF;
+    border-radius: 4px;
+    box-shadow: inset 0 -1px 0 rgba(0, 0, 0, .1), 0 1px 3px rgba(0, 85, 255, .3);
+    color: #fff;
+    border: none;
+    line-height: 1;
+    white-space: nowrap;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.pc-design {
+    margin: auto;
+    position: relative;
+    max-width: 1200px;
+}
+
+.pc-design .pc-image {
+    border-radius: 4px;
+    width: 100%;
+    vertical-align: middle;
+    box-shadow: 0 1px 0 rgba(0, 0, 0, .075), 0 1px 4px rgba(0, 0, 0, .05), 0 10px 20px rgba(0, 0, 0, .05);
+}
+
+/* Meetups & Events */
+#events .meetups-events-heading {
+    font-weight: 900;
+    font-size: 57px;
+    line-height: 1.4;
+}
+
+.see-more-events {
+    color: #05f;
+    font-size: 24px;
+    font-weight: 400;
+    text-decoration: none;
+    border-bottom: 0 solid rgba(255, 255, 255, .01);
+    transition: all .2s ease;
+    white-space: nowrap;
+    cursor: pointer;
+    list-style: none;
+    display: block;
+}
+
+.see-more-events:visited {
+    text-decoration: none;
+}
+
+.see-more-events:hover {
+    text-decoration: none;
+}
+
+.see-more-events:active {
+    text-decoration: none;
+}
+
+/*.see-more-events:hover {*/
+/*text-decoration: underline;*/
+/*}*/
+
+.see-more-events::after {
+    content: url(../../assets/chevron-right.svg);
+    color: #05f;
+    vertical-align: sub;
+}
+
+/* Letest event*/
+
+#events .event {
+    margin-bottom: 20px;
+    border-radius: 4px;
+    background-color: #FCF1F1;
+    padding: 90px;
+    width: calc(50% - 20px);
+    text-align: left;
+    display: block;
+}
+
+.event .rounded-image {
+    width: 220px;
+    margin: 0 auto 40px;
+    box-shadow: 0 8px 18px 0 rgba(0, 0, 0, .07), 0 1px 0 0 rgba(0, 0, 0, .07);
+    border-radius: 58px;
+}
+
+.event .event-heading, .features .feature, #resources .resource-name {
+    font-weight: 900;
+    font-size: 48px;
+    line-height: 1.2;
+    margin-bottom: 20px;
+}
+
+.event .event-date, .event .event-location, .features .feature-info, #resources .resources-details {
+    font-weight: 400;
+    font-size: 18px;
+    text-align: left;
+    line-height: 1.7;
+}
+
+.event .event-date {
+    color: #EB3569;
+}
+
+.event-location {
+    color: #05f;
+}
+
+.event-date:before {
+    content: url(../../assets/calendar.svg);
+    vertical-align: sub;
+    margin-right: 10px;
+}
+
+.event-location:before {
+    content: url(../../assets/map-pin.svg);
+    vertical-align: sub;
+    margin-right: 10px;
+}
+
+.event .event-info {
+    color: #222;
+    line-height: 1.7;
+    font-size: 18px;
+    font-weight: 400;
+    vertical-align: baseline;
+    margin-bottom: 40px;
+}
+
+.features .feature, .features .feature-info {
+    text-align: center;
+}
+
+/*Hackathon*/
+
+#hackathon {
+    background-color: #000;
+}
+
+#hackathon .hackathon-heading {
+    font-size: 72px;
+    line-height: 1.2;
+    font-weight: 900;
+    margin-bottom: 20px;
+    color: #fff;
+}
+
+#hackathon .hackathon-info {
+    min-width: 1000px;
+}
+
+#hackathon .hackathon-info {
+    font-size: 30px;
+    margin-bottom: 28px;
+    font-weight: 400;
+    line-height: 1.4;
+    color: #CCCCCC;
+}
+
+/*Resources*/
+#resources .resources-headline {
+    font-size: 57px;
+    line-height: 1.4;
+    font-weight: 900;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+#resources .resources-info {
+    font-size: 30px;
+    margin-bottom: 28px;
+    font-weight: 400;
+    line-height: 1.4;
+    text-align: center;
+}
+
+.block {
+    padding: 90px;
+    text-align: left;
+    /*background-color: #FCF1F1;*/
+    /*border-radius: 4px;*/
+}
+
+#resources .resource-design {
+    max-width: 410px;
+    max-height: 216px;
+    width: 100%;
+    text-align: center;
+    margin: 0 auto 40px;
+    box-shadow: 0 8px 18px 0 rgba(0, 0, 0, .07), 0 1px 0 0 rgba(0, 0, 0, .07);
+    border-radius: 4px;
+}
+
+img {
+    vertical-align: middle;
+}
+
+#team .team-aim {
+    font-weight: 900;
+    font-size: 57px;
+    line-height: 1.4;
+    margin-bottom: 20px;
+}
+
+#team .team-moto {
+    font-size: 30px;
+    margin-bottom: 28px;
+    font-weight: 400;
+    line-height: 1.4;
+    max-width: 1000px;
+    width: 100%;
+}
+
+/********************************** Footer **********************************/
+
+#footer .footer-heading {
+    font-weight: 900;
+    font-size: 57px;
+    line-height: 1.2;
+    margin-bottom: 20px;
+    max-width: 450px;
+    width: 100%;
+    color: #fff;
+    margin-top: 80px;
+}
+
+#footer .footer-need-help {
+    font-size: 24px;
+    margin-bottom: 28px;
+    font-weight: 400;
+    line-height: 1.4;
+    max-width: 550px;
+    text-align: center;
+    width: 100%;
+    color: #CCCCCC;
+}
+
+#footer {
+    background-color: #000;
+}
+
+#footer .social-media {
+    text-align: center;
+}
+
+#footer .footer-icons {
+    color: #313131;
+}
+
+#footer .footer-signature {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.1;
+    color: #808080;
+    margin-top: 120px;
+    margin-bottom: 30px;
+}
+
+#footer .footer-we {
+    color: #CCCCCC;
+}
+
+
+
+
+/********************************** Media Queries **********************************/
+
+/*Extra small devices (portrait phones, less than 576px)*/
+/* Iphone 6 Plus*/
+@media (max-width: 575.98px) {
+
+}
+
+/*Small devices (landscape phones, 576px and up)*/
+/* Iphone 6 Plus landscape*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+
+}
+
+/*Medium devices (tablets, 768px and up)*/
+/* Amzon Kindle landscape and Ipad landscape*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+
+}
+
+/*Large devices (desktops, 992px and up)*/
+/* Ipad Mini 2 */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+
+}
+
+/*Extra large devices (large desktops, 1200px and up)*/
+/* Kindle */
+@media (min-width: 1200px) {
+
+}
