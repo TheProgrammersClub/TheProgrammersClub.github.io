@@ -63,62 +63,6 @@
     vertical-align: sub;
 }
 
-/* Latest event*/
-
-.event .rounded-image {
-    width: 220px;
-    margin: 0 auto 40px;
-    box-shadow: 0 8px 18px 0 rgba(0, 0, 0, .07), 0 1px 0 0 rgba(0, 0, 0, .07);
-    border-radius: 58px;
-}
-
-.event .event-date {
-    color: #EB3569;
-}
-
-.event-location {
-    color: #05f;
-}
-
-.event-date:before {
-    content: url(../../assets/calendar.svg);
-    vertical-align: sub;
-    margin-right: 10px;
-}
-
-.event-location:before {
-    content: url(../../assets/map-pin.svg);
-    vertical-align: sub;
-    margin-right: 10px;
-}
-
-.event .event-info {
-    color: #222;
-    vertical-align: baseline;
-    margin-bottom: 40px;
-}
-
-.features .feature, .features .feature-info {
-    text-align: center;
-}
-
-/*Hackathon*/
-
-#hackathon {
-    background-color: #000;
-}
-
-#hackathon .hackathon-heading {
-    color: #fff;
-}
-
-#hackathon .hackathon-info {
-    min-width: 1000px;
-}
-
-#hackathon .hackathon-info {
-    color: #CCCCCC;
-}
 
 /*Resources*/
 

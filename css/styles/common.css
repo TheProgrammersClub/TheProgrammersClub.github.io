@@ -37,6 +37,10 @@ time, mark, audio, video {
     margin-bottom: 160px;
 }
 
+/*.margin-t-160 {*/
+    /*margin-top: 160px;*/
+/*}*/
+
 /*Hero*/
 .margin-t-b-120 {
     margin-top: 120px;
@@ -67,6 +71,18 @@ time, mark, audio, video {
 .margin-t-40 {
     margin-top: 40px;
 }
+
+.margin-r-40 {
+    margin-right: 40px;
+}
+
+.margin-l-40 {
+    margin-left: 40px;
+}
+
+/*.margin-b-40 {*/
+/*margin-bottom: 40px;*/
+/*}*/
 
 .margin-t-20 {
     margin-top: 20px;
@@ -117,9 +133,80 @@ img {
     font-weight: 400;
 }
 
+/* Events */
+
+#events .event {
+    margin-bottom: 20px;
+    border-radius: 4px;
+    background-color: #FCF1F1;
+    padding: 90px;
+    text-align: left;
+    display: block;
+}
+
+#events .event-heading {
+    text-align: left;
+}
+
+.event .rounded-image {
+    width: 220px;
+    margin: 0 auto 40px;
+    box-shadow: 0 8px 18px 0 rgba(0, 0, 0, .07), 0 1px 0 0 rgba(0, 0, 0, .07);
+    border-radius: 58px;
+}
+
+.event .event-date {
+    color: #EB3569;
+}
+
+.event-location {
+    color: #05f;
+}
+
+.event-date:before {
+    content: url(../../assets/calendar.svg);
+    vertical-align: sub;
+    margin-right: 10px;
+}
+
+.event-location:before {
+    content: url(../../assets/map-pin.svg);
+    vertical-align: sub;
+    margin-right: 10px;
+}
+
+.event .event-info {
+    color: #222;
+    vertical-align: baseline;
+    margin-bottom: 40px;
+}
+
+/*Hackathon*/
+
+#hackathon {
+    background-color: #000;
+}
+
+#hackathon .hackathon-heading {
+    color: #fff;
+}
+
+#hackathon .hackathon-info {
+    min-width: 1000px;
+}
+
+#hackathon .hackathon-info {
+    color: #CCCCCC;
+}
+
 #team .team-moto {
     max-width: 1000px;
     width: 100%;
+}
+
+/*Features and Hackathon features*/
+.features .feature, .features .feature-info {
+    text-align: center;
 }
 
 /********************************** Footer **********************************/
@@ -328,6 +415,13 @@ img {
         font-size: 48px;
         line-height: 1.2;
         margin-bottom: 20px;
+    }
+
+    h4 {
+        font-size: 30px;
+        font-weight: 900;
+        line-height: 1.2;
+        margin-bottom: 10px;
     }
 
     .wrapper .lead {
