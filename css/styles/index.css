@@ -28,7 +28,8 @@ time, mark, audio, video {
     background: transparent;
 }
 
-.margin-t-b {
+/*Hero*/
+.margin-t-b-120 {
     margin-top: 120px;
     margin-bottom: 120px;
 }
@@ -55,6 +56,10 @@ time, mark, audio, video {
     margin-top: 60px;
 }
 
+.mobile-t-margin {
+    margin-top: 40px;
+}
+
 .wrapper {
     text-align: center;
     display: flex;
@@ -62,31 +67,14 @@ time, mark, audio, video {
     align-items: center;
 }
 
-h1 {
-    font-size: 72px;
-    line-height: 1.2;
-    font-weight: 900;
-    margin-bottom: 20px;
-}
-
-h2 {
-    font-weight: 900;
-    font-size: 57px;
-    line-height: 1.4;
-    margin-bottom: 20px;
-}
-
-h3 {
-    font-weight: 900;
-    font-size: 48px;
-    line-height: 1.2;
-    margin-bottom: 20px;
-}
-
 p {
     font-size: 18px;
     line-height: 1.5;
     font-weight: 400;
+}
+
+.wrapper .lead {
+    max-width: 710px;
 }
 
 .sub-heading {
@@ -102,10 +90,6 @@ p {
     text-align: left;
     line-height: 1.7;
     margin-bottom: 10px;
-}
-
-.wrapper .lead {
-    max-width: 710px;
 }
 
 .wrapper .blue-button {
@@ -145,6 +129,10 @@ p {
     padding: 90px;
     text-align: left;
     display: block;
+}
+
+#events .event-heading {
+    text-align: center;
 }
 
 .see-more-events {
@@ -315,6 +303,7 @@ img {
 /*Extra small devices (portrait phones, less than 576px)*/
 /* Iphone 6 Plus*/
 @media (max-width: 575.98px) {
+
     h1 {
         font-size: 40px;
         line-height: 1.1;
@@ -356,14 +345,9 @@ img {
         min-width: 350px;
     }
 
-    .mobile-t-margin {
-        margin-top: 40px;
-    }
-
     .event .rounded-image {
         width: 180px;
     }
-
 
     .sub-heading {
         font-size: 21px;
@@ -377,6 +361,10 @@ img {
         max-width: 250px;
     }
 
+    #footer .footer-need-help {
+        font-size: 21px;
+    }
+
     #hackathon .hackathon-heading {
         max-width: 350px;
         text-align: center;
@@ -387,12 +375,12 @@ img {
 /*Small devices (landscape phones, 576px and up)*/
 /* Iphone 6 Plus landscape*/
 @media (min-width: 576px) and (max-width: 767.98px) {
+
     h1 {
         font-size: 48px;
         line-height: 1.2;
         font-weight: 900;
         margin-bottom: 20px;
-        background-color: green;
 
     }
 
@@ -409,11 +397,17 @@ img {
         line-height: 1.2;
         /*margin-bottom: 20px;*/
     }
+
+    #hackathon .hackathon-info {
+        min-width: 650px;
+    }
+
 }
 
 /*Medium devices (tablets, 768px and up)*/
 /* Amzon Kindle landscape and Ipad landscape*/
 @media (min-width: 768px) and (max-width: 991.98px) {
+
     h1 {
         font-size: 48px;
         line-height: 1.1;
@@ -445,11 +439,16 @@ img {
         display: block;
     }
 
+    #hackathon .hackathon-info {
+        min-width: 700px;
+    }
+
 }
 
 /*Large devices (desktops, 992px and up)*/
 /* Ipad Mini 2 */
 @media (min-width: 992px) and (max-width: 1199.98px) {
+
     h1 {
         font-size: 57px;
         line-height: 1.1;
@@ -474,12 +473,38 @@ img {
         display: block;
     }
 
+    #hackathon .hackathon-info {
+        min-width: 800px;
+    }
+
 }
 
 /*Extra large devices (large desktops, 1200px and up)*/
 /* Kindle */
 @media (min-width: 1200px) {
 
+    h1 {
+        font-size: 72px;
+        line-height: 1.2;
+        font-weight: 900;
+        margin-bottom: 20px;
+    }
+
+    h2 {
+        font-weight: 900;
+        font-size: 57px;
+        line-height: 1.4;
+        margin-bottom: 20px;
+    }
+
+    h3 {
+        font-weight: 900;
+        font-size: 48px;
+        line-height: 1.2;
+        margin-bottom: 20px;
+    }
+
+    /*Events*/
     #events .event {
         width: calc(50% - 20px);
     }
