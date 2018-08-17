@@ -1,110 +1,7 @@
-/********************************** Global **********************************/
-body {
-    font-family: 'Lato', sans-serif !important;
-    margin: 0;
-    padding: 0;
-    background-color: #fff;
-    color: #000;
-}
-
-html, body, div, span, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-abbr, address, cite, code,
-del, dfn, em, img, ins, kbd, q, samp,
-small, strong, sub, sup, var,
-b, i,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, figcaption, figure,
-footer, header, hgroup, menu, nav, section, summary,
-time, mark, audio, video {
-    margin: 0;
-    padding: 0;
-    border: 0;
-    outline: 0;
-    font-size: 100%;
-    /*vertical-align: baseline;*/
-    background: transparent;
-}
-
-/*Hero*/
-.margin-t-b-120 {
-    margin-top: 120px;
-    margin-bottom: 120px;
-}
-
-.margin-t-b-160 {
-    margin-top: 160px;
-    margin-bottom: 160px;
-}
-
-.margin-t-b-80 {
-    margin-top: 80px;
-    margin-bottom: 80px;
-}
-
-.margin-t-120 {
-    margin-top: 120px;
-}
-
-.margin-t-80 {
-    margin-top: 80px;
-}
-
-.margin-t-60 {
-    margin-top: 60px;
-}
-
-.mobile-t-margin {
-    margin-top: 40px;
-}
-
-.wrapper {
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-p {
-    font-size: 18px;
-    line-height: 1.5;
-    font-weight: 400;
-}
-
-.wrapper .lead {
-    max-width: 710px;
-}
-
-.sub-heading {
-    font-size: 30px;
-    margin-bottom: 28px;
-    font-weight: 400;
-    line-height: 1.4;
-}
-
-.body-heading {
-    font-weight: 400;
-    font-size: 17px;
-    text-align: left;
-    line-height: 1.7;
-    margin-bottom: 10px;
-}
 
 .wrapper .blue-button {
-    padding: 16px 24px 15px;
     background-color: #0055FF;
-    border-radius: 4px;
-    box-shadow: inset 0 -1px 0 rgba(0, 0, 0, .1), 0 1px 3px rgba(0, 85, 255, .3);
     color: #fff;
-    border: none;
-    line-height: 1;
-    white-space: nowrap;
-    text-align: center;
-    display: inline-block;
-    font-size: 16px;
-    font-weight: 400;
 }
 
 .pc-design {
@@ -240,97 +137,11 @@ p {
     border-radius: 4px;
 }
 
-img {
-    vertical-align: middle;
-}
-
-#team .team-moto {
-    max-width: 1000px;
-    width: 100%;
-}
-
-/********************************** Footer **********************************/
-
-#footer .footer-heading {
-    /*font-weight: 900;*/
-    /*font-size: 57px;*/
-    /*line-height: 1.2;*/
-    /*margin-bottom: 20px;*/
-    max-width: 450px;
-    width: 100%;
-    color: #fff;
-    margin-top: 80px;
-}
-
-#footer .footer-need-help {
-    font-size: 24px;
-    margin-bottom: 28px;
-    font-weight: 400;
-    line-height: 1.4;
-    max-width: 550px;
-    text-align: center;
-    width: 100%;
-    color: #CCCCCC;
-}
-
-#footer {
-    background-color: #000;
-}
-
-#footer .social-media {
-    text-align: center;
-}
-
-#footer .footer-icons {
-    color: #313131;
-}
-
-#footer .footer-signature {
-    font-size: 14px;
-    font-weight: 400;
-    line-height: 1.1;
-    color: #808080;
-    margin-top: 120px;
-    margin-bottom: 30px;
-}
-
-#footer .footer-we {
-    color: #CCCCCC;
-}
-
 /********************************** Media Queries **********************************/
 
 /*Extra small devices (portrait phones, less than 576px)*/
 /* Iphone 6 Plus*/
 @media (max-width: 575.98px) {
-
-    h1 {
-        font-size: 40px;
-        line-height: 1.1;
-        font-weight: 900;
-        margin-bottom: 20px;
-    }
-
-    h2 {
-        font-weight: 900;
-        font-size: 32px;
-        line-height: 1.2;
-        margin-bottom: 20px;
-    }
-
-    h3 {
-        font-weight: 900;
-        font-size: 28px;
-        line-height: 1.2;
-        /*margin-bottom: 20px;*/
-    }
-
-    .sub-heading {
-        font-size: 24px;
-        margin-bottom: 20px;
-        font-weight: 400;
-        line-height: 1.4;
-    }
 
     #events .event {
         margin-bottom: 20px;
@@ -349,20 +160,8 @@ img {
         width: 180px;
     }
 
-    .sub-heading {
-        font-size: 21px;
-    }
-
     .block {
         padding: 40px;
-    }
-
-    #footer .footer-heading {
-        max-width: 250px;
-    }
-
-    #footer .footer-need-help {
-        font-size: 21px;
     }
 
     #hackathon .hackathon-heading {
@@ -376,28 +175,6 @@ img {
 /* Iphone 6 Plus landscape*/
 @media (min-width: 576px) and (max-width: 767.98px) {
 
-    h1 {
-        font-size: 48px;
-        line-height: 1.2;
-        font-weight: 900;
-        margin-bottom: 20px;
-
-    }
-
-    h2 {
-        font-weight: 900;
-        font-size: 32px;
-        line-height: 1.4;
-        margin-bottom: 20px;
-    }
-
-    h3 {
-        font-weight: 900;
-        font-size: 28px;
-        line-height: 1.2;
-        /*margin-bottom: 20px;*/
-    }
-
     #hackathon .hackathon-info {
         min-width: 650px;
     }
@@ -407,27 +184,6 @@ img {
 /*Medium devices (tablets, 768px and up)*/
 /* Amzon Kindle landscape and Ipad landscape*/
 @media (min-width: 768px) and (max-width: 991.98px) {
-
-    h1 {
-        font-size: 48px;
-        line-height: 1.1;
-        font-weight: 900;
-        margin-bottom: 20px;
-    }
-
-    h2 {
-        font-weight: 900;
-        font-size: 57px;
-        line-height: 1.4;
-        margin-bottom: 20px;
-    }
-
-    h3 {
-        font-weight: 900;
-        font-size: 28px;
-        line-height: 1.2;
-        /*margin-bottom: 20px;*/
-    }
 
     #events .event {
         margin-bottom: 20px;
@@ -449,20 +205,6 @@ img {
 /* Ipad Mini 2 */
 @media (min-width: 992px) and (max-width: 1199.98px) {
 
-    h1 {
-        font-size: 57px;
-        line-height: 1.1;
-        font-weight: 900;
-        margin-bottom: 20px;
-    }
-
-    h2 {
-        font-weight: 900;
-        font-size: 57px;
-        line-height: 1.4;
-        margin-bottom: 20px;
-    }
-
     #events .event {
         margin-bottom: 20px;
         border-radius: 4px;
@@ -482,27 +224,6 @@ img {
 /*Extra large devices (large desktops, 1200px and up)*/
 /* Kindle */
 @media (min-width: 1200px) {
-
-    h1 {
-        font-size: 72px;
-        line-height: 1.2;
-        font-weight: 900;
-        margin-bottom: 20px;
-    }
-
-    h2 {
-        font-weight: 900;
-        font-size: 57px;
-        line-height: 1.4;
-        margin-bottom: 20px;
-    }
-
-    h3 {
-        font-weight: 900;
-        font-size: 48px;
-        line-height: 1.2;
-        margin-bottom: 20px;
-    }
 
     /*Events*/
     #events .event {

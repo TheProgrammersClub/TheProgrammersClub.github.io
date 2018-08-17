@@ -1,0 +1,80 @@
+
+.workshop-design {
+    margin: auto;
+    position: relative;
+    max-width: 1200px;
+}
+
+.workshop-design .workshop-image {
+    border-radius: 4px;
+    width: 100%;
+    max-height: 400px;
+    height: 100%;
+    vertical-align: middle;
+    margin: 80px auto 60px;
+    box-shadow: 0 1px 0 rgba(0, 0, 0, .075), 0 1px 4px rgba(0, 0, 0, .05), 0 10px 20px rgba(0, 0, 0, .05);
+}
+
+.countdown {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+.counter {
+    margin: 20px;
+    width: 120px;
+    height: 90px;
+    display: flex;
+    flex-direction: column;
+}
+
+.strip {
+    color: #EB3569;
+    padding: 0;
+    margin: 0;
+}
+
+.wrapper .black-button {
+    background-color: #000;
+    color: #fff;
+}
+
+
+/*start from here*/
+
+@media (max-width: 575.98px) {
+
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+
+}
+
+@media (min-width: 1200px) {
+    .lead {
+        max-width: 950px;
+    }
+
+    .countdown .counter h2 {
+        font-size: 60px;
+        font-weight: 900;
+        line-height: 1.2;
+    }
+
+    .countdown .counter p {
+        font-size: 15px;
+        font-weight: 400;
+        line-height: 1.7;
+    }
+
+}
