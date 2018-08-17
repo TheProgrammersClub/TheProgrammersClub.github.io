@@ -38,7 +38,7 @@ time, mark, audio, video {
 }
 
 /*.margin-t-160 {*/
-    /*margin-top: 160px;*/
+/*margin-top: 160px;*/
 /*}*/
 
 /*Hero*/
@@ -83,6 +83,10 @@ time, mark, audio, video {
 /*.margin-b-40 {*/
 /*margin-bottom: 40px;*/
 /*}*/
+
+.margin-20 {
+    margin: 20px;
+}
 
 .margin-t-20 {
     margin-top: 20px;
@@ -131,6 +135,12 @@ img {
     display: inline-block;
     font-size: 16px;
     font-weight: 400;
+}
+
+
+.wrapper .blue-button {
+    background-color: #0055FF;
+    color: #fff;
 }
 
 /* Events */
@@ -285,6 +295,13 @@ img {
         margin-bottom: 20px;
     }
 
+    h4 {
+        font-size: 21px;
+        font-weight: 900;
+        line-height: 1.1;
+        margin-bottom: 10px;
+    }
+
     .mobile-t-margin {
         margin-top: 40px;
     }
@@ -332,6 +349,13 @@ img {
         margin-bottom: 20px;
     }
 
+    h4 {
+        font-size: 21px;
+        font-weight: 900;
+        line-height: 1.1;
+        margin-bottom: 10px;
+    }
+
     .mobile-t-margin {
         margin-top: 40px;
     }
@@ -363,6 +387,13 @@ img {
         margin-bottom: 20px;
     }
 
+    h4 {
+        font-size: 21px;
+        font-weight: 900;
+        line-height: 1.1;
+        margin-bottom: 10px;
+    }
+
 }
 
 /*Large devices (desktops, 992px and up)*/
@@ -388,6 +419,13 @@ img {
         font-size: 32px;
         line-height: 1.2;
         margin-bottom: 20px;
+    }
+
+    h4 {
+        font-size: 24px;
+        font-weight: 900;
+        line-height: 1.1;
+        margin-bottom: 10px;
     }
 
 }
