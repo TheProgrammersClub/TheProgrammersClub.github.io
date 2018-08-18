@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 270 200">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #09f;
+      }
+
+      .cls-2, .cls-3 {
+        fill: #fff;
+      }
+
+      .cls-3 {
+        opacity: 0.5;
+      }
+
+      .cls-4 {
+        fill: rgba(204,204,204,0);
+      }
+    </style>
+  </defs>
+  <g id="coding" transform="translate(-486 -530)">
+    <path id="Rectangle_2" data-name="Rectangle 2" class="cls-1" d="M4,0H266a4,4,0,0,1,4,4V200a0,0,0,0,1,0,0H0a0,0,0,0,1,0,0V4A4,4,0,0,1,4,0Z" transform="translate(486 530)"/>
+    <g id="coding-2" data-name="coding" transform="translate(521 530)">
+      <path id="Path_20" data-name="Path 20" class="cls-2" d="M55,57a2,2,0,0,1,2-2h86a2,2,0,0,1,2,2V77a2,2,0,0,1-2,2H57a2,2,0,0,1-2-2Zm0,33a2,2,0,0,1,2-2h86a2,2,0,0,1,2,2v20a2,2,0,0,1-2,2H57a2,2,0,0,1-2-2Z"/>
+      <path id="Path_21" data-name="Path 21" class="cls-3" d="M55,123a2,2,0,0,1,2-2h86a2,2,0,0,1,2,2v20a2,2,0,0,1-2,2H57a2,2,0,0,1-2-2Z"/>
+      <path id="Path_22" data-name="Path 22" class="cls-4" d="M0,0H200V200H0Z"/>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,9 @@
+.arrange-left {
+    text-align: left;
+}
+
+.resource-image {
+    box-shadow: 0 1px 0 rgba(0, 0, 0, .075), 0 1px 4px rgba(0, 0, 0, .05), 0 10px 20px rgba(0, 0, 0, .05);
+    border-radius: 4px;
+}
+

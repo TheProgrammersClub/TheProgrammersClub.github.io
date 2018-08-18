@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 270 200">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #e9a820;
+      }
+
+      .cls-2, .cls-3 {
+        fill: #fff;
+      }
+
+      .cls-2 {
+        opacity: 0.5;
+      }
+
+      .cls-4 {
+        fill: rgba(204,204,204,0);
+      }
+    </style>
+  </defs>
+  <g id="Web_res" transform="translate(-486 -530)">
+    <path id="Rectangle_2" data-name="Rectangle 2" class="cls-1" d="M4,0H266a4,4,0,0,1,4,4V200a0,0,0,0,1,0,0H0a0,0,0,0,1,0,0V4A4,4,0,0,1,4,0Z" transform="translate(486 530)"/>
+    <g id="Web" transform="translate(521 530.99)">
+      <path id="Path_14" data-name="Path 14" class="cls-2" d="M55,78h90v64.675a2,2,0,0,1-2,1.99H57a2,2,0,0,1-2-1.99Z" transform="translate(0 -0.39)"/>
+      <path id="Path_15" data-name="Path 15" class="cls-3" d="M55,56.99A2,2,0,0,1,57,55h86a2,2,0,0,1,2,1.99v20.9H55Z" transform="translate(0 -0.275)"/>
+      <path id="Path_16" data-name="Path 16" class="cls-4" d="M0,0H200V199H0Z"/>
+    </g>
+  </g>
+</svg>

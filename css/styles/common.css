@@ -92,6 +92,14 @@ time, mark, audio, video {
     margin-top: 20px;
 }
 
+.margin-l-20 {
+    margin-left: 20px;
+}
+
+.margin-r-20 {
+    margin-right: 20px;
+}
+
 .wrapper {
     text-align: center;
     display: flex;
@@ -137,10 +145,15 @@ img {
     font-weight: 400;
 }
 
-
 .wrapper .blue-button {
     background-color: #0055FF;
     color: #fff;
+}
+
+.wrapper .big-card {
+    box-shadow: 0 1px 0 rgba(0, 0, 0, .05), 0 1px 2px rgba(0, 0, 0, .05), 0 5px 15px rgba(0, 0, 0, .05);
+    border-radius: 4px;
+    background-color: orchid;
 }
 
 /* Events */
@@ -193,11 +206,11 @@ img {
 
 /*Hackathon*/
 
-#hackathon {
+.black-background {
     background-color: #000;
 }
 
-#hackathon .hackathon-heading {
+.wrapper .white-heading {
     color: #fff;
 }
 
@@ -205,7 +218,7 @@ img {
     min-width: 1000px;
 }
 
-#hackathon .hackathon-info {
+.wrapper .small-white {
     color: #CCCCCC;
 }
 
@@ -302,6 +315,13 @@ img {
         margin-bottom: 10px;
     }
 
+    h5 {
+        font-size: 18px;
+        font-weight: 900;
+        line-height: 1.1;
+        margin-bottom: 8px;
+    }
+
     .mobile-t-margin {
         margin-top: 40px;
     }
@@ -356,6 +376,13 @@ img {
         margin-bottom: 10px;
     }
 
+    h5 {
+        font-size: 18px;
+        font-weight: 900;
+        line-height: 1.1;
+        margin-bottom: 8px;
+    }
+
     .mobile-t-margin {
         margin-top: 40px;
     }
@@ -394,6 +421,13 @@ img {
         margin-bottom: 10px;
     }
 
+    h5 {
+        font-size: 18px;
+        font-weight: 900;
+        line-height: 1.1;
+        margin-bottom: 8px;
+    }
+
 }
 
 /*Large devices (desktops, 992px and up)*/
@@ -428,6 +462,13 @@ img {
         margin-bottom: 10px;
     }
 
+    h5 {
+        font-size: 18px;
+        font-weight: 900;
+        line-height: 1.1;
+        margin-bottom: 8px;
+    }
+
 }
 
 /*Extra large devices (large desktops, 1200px and up)*/
@@ -460,6 +501,13 @@ img {
         font-weight: 900;
         line-height: 1.2;
         margin-bottom: 10px;
+    }
+
+    h5 {
+        font-size: 24px;
+        font-weight: 900;
+        line-height: 1.2;
+        margin-bottom: 8px;
     }
 
     .wrapper .lead {
