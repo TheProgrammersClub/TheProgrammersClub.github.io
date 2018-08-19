@@ -203,19 +203,19 @@ nav {
     font-weight: 400;
 }
 
-.nav-main .nav-list>li {
+.nav-main .nav-list > li {
     display: block;
 }
 
-.nav-list>li:first-child {
+.nav-list > li:first-child {
     opacity: 1;
 }
 
-.nav-main.open .nav-list>li {
+.nav-main.open .nav-list > li {
     opacity: 1;
 }
 
-.nav-main.open .nav-list>li:first-child {
+.nav-main.open .nav-list > li:first-child {
     position: absolute;
     top: 0;
     left: 0;
@@ -309,6 +309,7 @@ img {
 
 #events .event-heading {
     text-align: left;
+    color: #000 !important;
 }
 
 .event .rounded-image {
@@ -399,6 +400,11 @@ input[type=text]:focus, textarea:focus, input[type=email]:focus {
     box-shadow: inset 0 0 0 1px #05f;
 }
 
+.red-color {
+    color: orangered !important;
+    margin-bottom: 8px;
+}
+
 /*Textarea Placeholder*/
 ::-webkit-input-placeholder { /* Chrome */
     color: #cacaca;
@@ -486,7 +492,6 @@ input[type=text]:focus, textarea:focus, input[type=email]:focus {
         font-size: 32px;
         line-height: 1.2;
         margin-bottom: 20px;
-        color: #000;
     }
 
     h3 {
@@ -494,7 +499,6 @@ input[type=text]:focus, textarea:focus, input[type=email]:focus {
         font-size: 28px;
         line-height: 1.2;
         margin-bottom: 20px;
-        color: #000;
     }
 
     h4 {
@@ -502,7 +506,6 @@ input[type=text]:focus, textarea:focus, input[type=email]:focus {
         font-weight: 900;
         line-height: 1.1;
         margin-bottom: 10px;
-        color: #000;
     }
 
     h5 {
@@ -510,7 +513,6 @@ input[type=text]:focus, textarea:focus, input[type=email]:focus {
         font-weight: 900;
         line-height: 1.1;
         margin-bottom: 8px;
-        color: #000;
     }
 
     .mobile-t-margin {
@@ -543,7 +545,6 @@ input[type=text]:focus, textarea:focus, input[type=email]:focus {
         line-height: 1.2;
         font-weight: 900;
         margin-bottom: 20px;
-        color: #000;
 
     }
 
@@ -552,7 +553,6 @@ input[type=text]:focus, textarea:focus, input[type=email]:focus {
         font-size: 32px;
         line-height: 1.4;
         margin-bottom: 20px;
-        color: #000;
     }
 
     h3 {
@@ -567,7 +567,6 @@ input[type=text]:focus, textarea:focus, input[type=email]:focus {
         font-weight: 900;
         line-height: 1.1;
         margin-bottom: 10px;
-        color: #000;
     }
 
     h5 {
@@ -575,7 +574,6 @@ input[type=text]:focus, textarea:focus, input[type=email]:focus {
         font-weight: 900;
         line-height: 1.1;
         margin-bottom: 8px;
-        color: #000;
     }
 
     .mobile-t-margin {
@@ -593,7 +591,6 @@ input[type=text]:focus, textarea:focus, input[type=email]:focus {
         line-height: 1.1;
         font-weight: 900;
         margin-bottom: 20px;
-        color: #000;
     }
 
     h2 {
@@ -601,7 +598,6 @@ input[type=text]:focus, textarea:focus, input[type=email]:focus {
         font-size: 57px;
         line-height: 1.4;
         margin-bottom: 20px;
-        color: #000;
     }
 
     h3 {
@@ -609,7 +605,6 @@ input[type=text]:focus, textarea:focus, input[type=email]:focus {
         font-size: 28px;
         line-height: 1.2;
         margin-bottom: 20px;
-        color: #000;
     }
 
     h4 {
@@ -617,7 +612,6 @@ input[type=text]:focus, textarea:focus, input[type=email]:focus {
         font-weight: 900;
         line-height: 1.1;
         margin-bottom: 10px;
-        color: #000;
     }
 
     h5 {
@@ -625,7 +619,6 @@ input[type=text]:focus, textarea:focus, input[type=email]:focus {
         font-weight: 900;
         line-height: 1.1;
         margin-bottom: 8px;
-        color: #000;
     }
 
     .nav-icon {
@@ -643,7 +636,6 @@ input[type=text]:focus, textarea:focus, input[type=email]:focus {
         line-height: 1.1;
         font-weight: 900;
         margin-bottom: 20px;
-        color: #000;
     }
 
     h2 {
@@ -651,7 +643,6 @@ input[type=text]:focus, textarea:focus, input[type=email]:focus {
         font-size: 57px;
         line-height: 1.4;
         margin-bottom: 20px;
-        color: #000;
     }
 
     h3 {
@@ -659,7 +650,6 @@ input[type=text]:focus, textarea:focus, input[type=email]:focus {
         font-size: 32px;
         line-height: 1.2;
         margin-bottom: 20px;
-        color: #000;
     }
 
     h4 {
@@ -667,7 +657,6 @@ input[type=text]:focus, textarea:focus, input[type=email]:focus {
         font-weight: 900;
         line-height: 1.1;
         margin-bottom: 10px;
-        color: #000;
     }
 
     h5 {
@@ -675,7 +664,6 @@ input[type=text]:focus, textarea:focus, input[type=email]:focus {
         font-weight: 900;
         line-height: 1.1;
         margin-bottom: 8px;
-        color: #000;
     }
 
 }
@@ -689,7 +677,6 @@ input[type=text]:focus, textarea:focus, input[type=email]:focus {
         line-height: 1.2;
         font-weight: 900;
         margin-bottom: 20px;
-        color: #000;
     }
 
     h2 {
@@ -697,7 +684,6 @@ input[type=text]:focus, textarea:focus, input[type=email]:focus {
         font-size: 57px;
         line-height: 1.4;
         margin-bottom: 20px;
-        color: #000;
     }
 
     h3 {
@@ -705,7 +691,6 @@ input[type=text]:focus, textarea:focus, input[type=email]:focus {
         font-size: 48px;
         line-height: 1.2;
         margin-bottom: 20px;
-        color: #000;
     }
 
     h4 {
@@ -713,7 +698,6 @@ input[type=text]:focus, textarea:focus, input[type=email]:focus {
         font-weight: 900;
         line-height: 1.2;
         margin-bottom: 10px;
-        color: #000;
     }
 
     h5 {
@@ -721,7 +705,6 @@ input[type=text]:focus, textarea:focus, input[type=email]:focus {
         font-weight: 900;
         line-height: 1.2;
         margin-bottom: 8px;
-        color: #000;
     }
 
     .wrapper .lead {
