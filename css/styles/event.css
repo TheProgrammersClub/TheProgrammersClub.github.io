@@ -57,6 +57,12 @@
     .block {
         padding: 40px;
     }
+
+    .event {
+        width: 100%;
+    }
+
+    
 }
 
 /*Medium devices (tablets, 768px and up)*/

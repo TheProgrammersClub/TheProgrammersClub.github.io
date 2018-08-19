@@ -20,6 +20,7 @@
     justify-content: center;
     align-items: center;
     flex-direction: row;
+    max-width: 50%;
 }
 
 .counter {
@@ -113,9 +114,13 @@
 
 @media (max-width: 575.98px) {
 
+
+    
 }
 
 @media (min-width: 576px) and (max-width: 767.98px) {
+   
+
 
 }
 
