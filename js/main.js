@@ -4,6 +4,7 @@ navIcon.addEventListener("click", function () {
     let body = document.getElementById("body");
     if (navOpen.classList.contains("open")) {
         navOpen.classList.remove("open");
+        body.classList.remove("no-scroll");
     } else {
         body.classList.add("no-scroll");
         navOpen.classList.add("open");
