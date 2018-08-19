@@ -1,5 +1,4 @@
 
-
 .pc-design {
     margin: auto;
     position: relative;
@@ -41,24 +40,13 @@
     display: block;
 }
 
-.see-more-events:visited {
-    text-decoration: none;
-}
 
-.see-more-events:hover {
-    text-decoration: none;
-}
-
-.see-more-events:active {
-    text-decoration: none;
-}
 
 .see-more-events::after {
     content: url(../../assets/chevron-right.svg);
     color: #05f;
     vertical-align: sub;
 }
-
 
 /*Resources*/
 

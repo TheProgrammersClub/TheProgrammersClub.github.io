@@ -20,7 +20,25 @@
     <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900" rel="stylesheet">
     <title>Programmer's Club</title>
 </head>
-<body>
+<body id="body">
+
+<nav id="nav" class="nav-main">
+    <ul class="nav-list">
+        <li class="list-item nav-logo"><a href="#">PC</a></li>
+        <li class="list-item"><a href="#">Events</a></li>
+        <li class="list-item"><a href="#">Resources</a></li>
+        <li class="list-item"><a href="#">About</a></li>
+    </ul>
+    <span id="nav-icon-btn" class="nav-icon">
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+             stroke="currentColor"
+             stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-menu">
+            <line x1="3" y1="12" x2="21" y2="12"></line>
+            <line x1="3" y1="6" x2="21" y2="6"></line>
+            <line x1="3" y1="18" x2="21" y2="18"></line>
+        </svg>
+    </span>
+</nav>
 
 <section class="container">
     <main class="wrapper margin-t-b-120">
@@ -30,7 +48,7 @@
         <button class="blue-button button">Connect with us</button>
     </main>
     <div class="pc-design">
-        <img class="pc-image" src="./assets/pc-image.jpg" alt="Programmer's Club image"/>
+        <img class="pc-image" src="./assets/pc_hero_img.jpg" alt="Programmer's Club image"/>
     </div>
 </section>
 
@@ -145,7 +163,7 @@
         <p class="footer-need-help sub-heading">If you want to share resource with us or need help or you're just
             looking for advice
             and direction then feel free to send us an email.</p>
-        <button class="blue-button button margin-t-b-80">Get in touch</button>
+        <a href="mailto:pawarg124@gmail.com" class="blue-button button margin-t-b-80">Get in touch</a>
         <div class="social-media">
             <a href="#" class="footer-icons mr-2">
                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
