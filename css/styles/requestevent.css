@@ -27,6 +27,14 @@
     text-align: left;
 }
 
+.info-care-notice-red-color {
+    color: orangered;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: normal;
+    text-align: left;
+}
+
 .info-care {
     color: #0055FF;
 }
