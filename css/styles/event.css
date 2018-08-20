@@ -13,7 +13,7 @@
 .white-button {
     background-color: #fff;
     color: #000;
-    margin-top: 40px;
+    margin-top: 10px;
 }
 
 .wrapper .blue-button {
@@ -48,6 +48,15 @@
         padding: 40px;
         text-align: left;
         display: block;
+        margin-left: 40px;
+        margin-right: 40px;
+    }
+
+    .latest-events {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
     }
 
     .event .rounded-image {
@@ -62,7 +71,7 @@
         width: 100%;
     }
 
-    
+
 }
 
 /*Medium devices (tablets, 768px and up)*/
