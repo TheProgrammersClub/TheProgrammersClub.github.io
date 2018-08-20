@@ -308,7 +308,7 @@ img {
 }
 
 #events .event-heading {
-    text-align: left;
+    text-align: center;
     color: #000 !important;
 }
 
@@ -354,10 +354,10 @@ img {
 .wrapper .white-heading {
     color: #fff;
 }
-
+/*
 #hackathon .hackathon-info {
     min-width: 1000px;
-}
+}*/
 
 .wrapper .small-white {
     color: #CCCCCC;
@@ -476,11 +476,12 @@ input[type=text]:focus, textarea:focus, input[type=email]:focus {
 @media (max-width: 575.98px) {
 
     h1 {
-        font-size: 40px;
+        font-size: 36px;
         line-height: 1.1;
         font-weight: 900;
         margin-bottom: 20px;
         color: #000;
+
     }
 
     h2 {
