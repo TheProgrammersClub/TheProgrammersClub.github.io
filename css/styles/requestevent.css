@@ -1,0 +1,40 @@
+#requestevent .button {
+    padding: 16px 24px 15px;
+    border-radius: 4px;
+    box-shadow: inset 0 -1px 0 rgba(0, 0, 0, .1), 0 1px 3px rgba(0, 85, 255, .3);
+    border: none;
+    line-height: 1;
+    white-space: nowrap;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 400;
+    margin: 0 auto;
+}
+
+#requestevent .blue-button {
+    background-color: #0055FF;
+    color: #fff;
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+.info-care-notice {
+    color: #666666;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: normal;
+    text-align: left;
+}
+
+.info-care-notice-red-color {
+    color: orangered;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: normal;
+    text-align: left;
+}
+
+.info-care {
+    color: #0055FF;
+}

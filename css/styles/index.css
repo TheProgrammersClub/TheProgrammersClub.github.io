@@ -1,0 +1,169 @@
+
+.pc-design {
+    margin: auto;
+    position: relative;
+    max-width: 1200px;
+}
+
+.pc-design .pc-image {
+    border-radius: 4px;
+    width: 100%;
+    vertical-align: middle;
+    box-shadow: 0 1px 0 rgba(0, 0, 0, .075), 0 1px 4px rgba(0, 0, 0, .05), 0 10px 20px rgba(0, 0, 0, .05);
+}
+
+/* Meetups & Events */
+
+#events .event {
+    margin-bottom: 20px;
+    border-radius: 4px;
+    background-color: #FCF1F1;
+    padding: 90px;
+    text-align: left;
+    display: block;
+}
+
+#events .event-heading {
+    text-align: center;
+}
+
+.see-more-events {
+    color: #05f;
+    font-size: 24px;
+    font-weight: 400;
+    text-decoration: none;
+    border-bottom: 0 solid rgba(255, 255, 255, .01);
+    transition: all .2s ease;
+    white-space: nowrap;
+    cursor: pointer;
+    list-style: none;
+    display: block;
+}
+
+
+
+.see-more-events::after {
+    content: url(../../assets/chevron-right.svg);
+    color: #05f;
+    vertical-align: sub;
+}
+
+/*Resources*/
+
+.block {
+    padding: 90px;
+    text-align: left;
+}
+
+#resources .resource-design {
+    max-width: 410px;
+    max-height: 216px;
+    width: 100%;
+    text-align: center;
+    margin: 0 auto 40px;
+    box-shadow: 0 8px 18px 0 rgba(0, 0, 0, .07), 0 1px 0 0 rgba(0, 0, 0, .07);
+    border-radius: 4px;
+}
+
+/********************************** Media Queries **********************************/
+
+/*Extra small devices (portrait phones, less than 576px)*/
+/* Iphone 6 Plus*/
+@media (max-width: 575.98px) {
+
+    #events .event {
+        margin-bottom: 20px;
+        border-radius: 4px;
+        background-color: #FCF1F1;
+        padding: 40px;
+        text-align: left;
+        display: block;
+    }
+
+    #hackathon .hackathon-info {
+        min-width: 350px;
+    }
+
+    .event .rounded-image {
+        width: 180px;
+    }
+
+    .block {
+        padding: 40px;
+    }
+
+    #hackathon .hackathon-heading {
+        max-width: 350px;
+        text-align: center;
+    }
+
+}
+
+/*Small devices (landscape phones, 576px and up)*/
+/* Iphone 6 Plus landscape*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+
+    #hackathon .hackathon-info {
+        min-width: 650px;
+    }
+
+}
+
+/*Medium devices (tablets, 768px and up)*/
+/* Amzon Kindle landscape and Ipad landscape*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+
+    #events .event {
+        margin-bottom: 20px;
+        border-radius: 4px;
+        background-color: #FCF1F1;
+        padding: 90px;
+        width: calc(70% - 20px);
+        text-align: left;
+        display: block;
+    }
+
+    #hackathon .hackathon-info {
+        min-width: 700px;
+    }
+
+}
+
+/*Large devices (desktops, 992px and up)*/
+/* Ipad Mini 2 */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+
+    #events .event {
+        margin-bottom: 20px;
+        border-radius: 4px;
+        background-color: #FCF1F1;
+        padding: 90px;
+        width: calc(50% - 20px);
+        text-align: left;
+        display: block;
+    }
+
+    #hackathon .hackathon-info {
+        min-width: 800px;
+    }
+
+}
+
+/*Extra large devices (large desktops, 1200px and up)*/
+/* Kindle */
+@media (min-width: 1200px) {
+
+    /*Events*/
+    #events .event {
+        width: calc(50% - 20px);
+    }
+
+    .mobile-margin-r-8 {
+        margin-right: 8px;
+    }
+
+    .mobile-margin-l-8 {
+        margin-left: 8px;
+    }
+
+}

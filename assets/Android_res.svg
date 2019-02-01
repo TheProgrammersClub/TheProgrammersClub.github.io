@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 270 200">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #3eb991;
+      }
+
+      .cls-2 {
+        fill: rgba(204,204,204,0);
+      }
+
+      .cls-3 {
+        fill: #fff;
+      }
+    </style>
+  </defs>
+  <g id="Android_res" transform="translate(-486 -530)">
+    <path id="Rectangle_2" data-name="Rectangle 2" class="cls-1" d="M4,0H266a4,4,0,0,1,4,4V200a0,0,0,0,1,0,0H0a0,0,0,0,1,0,0V4A4,4,0,0,1,4,0Z" transform="translate(486 530)"/>
+    <g id="Android_SVG" data-name="Android SVG" transform="translate(521 530)">
+      <path id="Path_1" data-name="Path 1" class="cls-2" d="M0,0H200V200H0Z"/>
+      <path id="Path_2" data-name="Path 2" class="cls-3" d="M63.23,69.828a4,4,0,1,1,5.657-5.656L100,95.284l31.113-31.112a4,4,0,1,1,5.657,5.656L102.828,103.77a4,4,0,0,1-5.656,0Z"/>
+      <path id="Path_3" data-name="Path 3" class="cls-3" d="M100,74a47,47,0,0,1,47,47v17H53V121A47,47,0,0,1,100,74ZM76,114a7,7,0,1,0,7-7,7,7,0,0,0-7,7Zm35,0a7,7,0,1,0,7-7,7,7,0,0,0-7,7Z"/>
+    </g>
+  </g>
+</svg>

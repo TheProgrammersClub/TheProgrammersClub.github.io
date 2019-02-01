@@ -9,19 +9,15 @@
     <!-- Bootstrap CSS -->
     <link type="text/css" rel="stylesheet" href="css/bootstrap/bootstrap.css">
     <!--<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">-->
+    <!-- Custom CSS -->
     <link type="text/css" rel="stylesheet" href="css/styles/common.css">
-    <link type="text/css" rel="stylesheet" href="css/styles/resources.css">
-
+    <link type="text/css" rel="stylesheet" href="css/styles/requestevent.css">
 
     <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
-    <link rel='icon' type='image/x-icon' href='assets/logo.ico'>
     <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900" rel="stylesheet">
-    <title>Programmer's Club</title>
-
+    <title></title>
 </head>
 <body id="body">
-
 
 <nav id="nav" class="nav-main">
     <ul class="nav-list">
@@ -41,110 +37,30 @@
     </span>
 </nav>
 
-<section class="container">
-    <main class="wrapper margin-t-b-120">
-        <h1>Resources</h1>
-        <p class="lead sub-heading">For beginner walkthroughs to programming basics and hands on project.<br>There's
-            something for everyone.<br> Kickstart your new project with these Resources.</p>
-
-
-        <div class="row margin-t-120 arrange-left ">
-            <div class="col-lg-3 col-xl-3 col-sm-12 col-md-6">
-                <div class="resource-image">
-                    <img class="resource-image " src="./assets/Android_res.svg" alt="Android Resources"/>
-                </div>
-                <br>
-                <h5>Android</h5>
-                <p class=" body-heading">
-                    Make Beautiful Material Design App with these resources.
-                </p>
-            </div>
-            <div class="col-lg-3 col-xl-3 col-sm-12 col-md-6">
-                <div class="resource-image">
-                    <img class="resource-image " src="./assets/Web_res.svg" alt="Web Resources"/>
-                </div>
-                <br>
-                <h5>Web</h5>
-                <p class=" body-heading">
-                    All the elements you need to start your own next Web Project.
-                </p>
-            </div>
-            <div class="col-lg-3 col-xl-3 col-sm-12 col-md-6">
-                <div class="resource-image">
-                    <img class="resource-image " src="./assets/Coding_res.svg" alt="Code Resources"/>
-                </div>
-                <br>
-                <h5>Coding</h5>
-                <p class=" body-heading">
-                    Know how to code for your next Competitive Coding Exam.
-                </p>
-            </div>
-            <div class="col-lg-3 col-xl-3 col-sm-12 col-md-6">
-                <div class="resource-image">
-                    <img class="resource-image " src="./assets/Design_res.svg" alt="Design Resources"/>
-                </div>
-                <br>
-                <h5>Design</h5>
-                <p class=" body-heading">
-                    Basic Wireframe Elements to Blueprint your next Big Projct.
-                </p>
-            </div>
-        </div>
+<section class="container margin-t-b-120">
+    <main class="wrapper">
+        <h1>Request Event</h1>
+        <p class="lead sub-heading">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+            incididunt ut labore et dolore magna aliqua.</p>
     </main>
 </section>
-
-<!--Request Resources-->
-<section id="request" class="container-fluid black-background">
-    <div class="wrapper margin-t-b-160 container">
-        <div class="margin-t-b-120">
-            <h2 class="white-heading"> Request Resources</h2>
-            <p class="hackathon-info small-white sub-heading">Get Curated content and Design Inspiration delievered
-                straight to your
-                inbox.</p>
-            <a href="/requestresource" class="blue-button button">Send Request</a>
+<section class=" container margin-t-b-80 width-x">
+    <form id="requestevent" action="#">
+        <div class="margin-b-20">
+            <input id="name" class="input-l" type="text" name="Your Name" placeholder="Your name" required="true">
         </div>
-    </div>
-</section>
-
-<!--Advanced Resources-->
-<section class="container">
-    <main class="wrapper margin-t-b-120">
-        <h2>Advanced Resources</h2>
-        <p class="lead sub-heading">Get advanced links,modules and resources created by developer and publishers.</p>
-
-        <div class="row margin-t-80 arrange-left">
-            <div class="col-lg-4 col-xl-4 col-md-12 col-sm-12 ">
-                <div class="resource-image">
-                    <img class="resource-image " src="./assets/res.svg" alt="Android"/>
-                </div>
-                <br>
-                <h4>IOT</h4>
-                <p class="body-heading">
-                    Get better understanding of Internet Of Things and connect any device to Internet.
-                </p>
-            </div>
-            <div class="col-lg-4 col-xl-4 col-md-12 col-sm-12 ">
-                <div class="resource-image">
-                    <img class="resource-image " src="./assets/res.svg" alt="Web"/>
-                </div>
-                <br>
-                <h4>Machine Learning</h4>
-                <p class="body-heading">
-                    Learn how ML models are created and workes so that you can get started with ML in your project.
-                </p>
-            </div>
-            <div class="col-lg-4 col-xl-4 col-md-12 col-sm-12 ">
-                <div class="resource-img">
-                    <img class="resource-image " src="./assets/res.svg" alt="Android"/>
-                </div>
-                <br>
-                <h4>Data Science</h4>
-                <p class="body-heading">
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt.
-                </p>
-            </div>
+        <div class="margin-b-20">
+            <input id="email" class="input-l" type="email" name="Email" placeholder="Email" required="true">
         </div>
-    </main>
+        <div class="margin-b-20">
+            <input id="technology" class="input-l" type="text" name="Which Event" placeholder="Which Event"
+                   required="true">
+        </div>
+        <button class="blue-button button" disabled>Send Request</button>
+        <p class="info-care-notice-red-color">We'll start accepting your request soon </span>
+        <p class="info-care-notice">We care about your personal Information <span class="info-care"><a href="#">Learn more</a></span>
+        </p>
+    </form>
 </section>
 
 <!-- Team-->
@@ -156,7 +72,6 @@
             ut labore et dolore magna aliqua.</p>
     </div>
 </section>
-<!--team ends-->
 
 <!--Footer-->
 <footer id="footer" class="container-fluid">
@@ -198,13 +113,12 @@
     </div>
 </footer>
 
-
 <!-- jQuery first, then Popper.js, then Bootstrap JS -->
 <script type="text/javascript" src="js/bootstrap/jquery-3.3.1.js"></script>
 <!--<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>-->
 <script type="text/javascript" src="js/bootstrap/bootstrap.js"></script>
 
 <!-- Custom JS -->
-<script type="text/javascript" src="js/main.js"></script>
+<!--<script type="text/javascript" src="js/workshop.js"></script>-->
 </body>
 </html>

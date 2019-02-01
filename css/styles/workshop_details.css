@@ -1,0 +1,152 @@
+
+.workshop-design {
+    margin: auto;
+    position: relative;
+    max-width: 1200px;
+}
+
+.workshop-design .workshop-image {
+    border-radius: 4px;
+    width: 100%;
+    max-height: 400px;
+    height: 100%;
+    vertical-align: middle;
+    margin: 80px auto 60px;
+    box-shadow: 0 1px 0 rgba(0, 0, 0, .075), 0 1px 4px rgba(0, 0, 0, .05), 0 10px 20px rgba(0, 0, 0, .05);
+}
+
+.countdown {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    max-width: 50%;
+}
+
+.counter {
+    margin: 20px;
+    width: 120px;
+    height: 90px;
+    display: flex;
+    flex-direction: column;
+}
+
+.strip {
+    color: #EB3569;
+    padding: 0;
+    margin: 0;
+}
+
+.wrapper .black-button {
+    background-color: #000;
+    color: #fff;
+}
+
+#prerequisites .learn-prerequisites {
+    max-width: 300px;
+    width: 100%;
+    min-height: 330px;
+    height: 100%;
+    box-shadow: 0 1px 0 rgba(0, 0, 0, .05), 0 1px 2px rgba(0, 0, 0, .05), 0 5px 15px rgba(0, 0, 0, .05);
+    border-radius: 4px;
+}
+
+#prerequisites .learn-prerequisites {
+    width: 300px;
+    height: 330px;
+}
+
+#prerequisites .link-heading {
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1.2;
+    margin-bottom: 20px;
+    vertical-align: baseline;
+}
+
+.link-heading:before {
+    content: url(../../assets/disc.svg);
+    vertical-align: sub;
+    margin-right: 10px;
+}
+
+#prerequisites .link {
+    font-weight: 400;
+}
+
+.align-left {
+    text-align: left;
+}
+
+#pricing .pricing-card {
+    padding: 50px;
+    background-color: #05f;
+    color: #fff;
+    box-shadow: 0 1px 0 rgba(0, 0, 0, .05), 0 1px 2px rgba(0, 0, 0, .05), 0 5px 15px rgba(0, 0, 0, .05);
+    display: flex;
+    flex-direction: column;
+    border-radius: 4px;
+}
+
+#pricing .pricing-card-content {
+    flex: 1;
+}
+
+#pricing .currency {
+    font-weight: 400;
+}
+
+#pricing .pricing-icon:before {
+    content: url(../../assets/check.svg);
+    vertical-align: sub;
+    margin-right: 10px;
+    color: #fff;
+}
+
+.white-button {
+    background-color: #fff;
+    color: #000;
+    margin-top: 40px;
+    width: 100%;
+}
+
+/*start from here*/
+
+@media (max-width: 575.98px) {
+
+
+    
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+   
+
+
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+
+}
+
+@media (min-width: 1200px) {
+    .lead {
+        max-width: 950px;
+    }
+
+    .countdown .counter h2 {
+        font-size: 60px;
+        font-weight: 900;
+        line-height: 1.2;
+    }
+
+    .countdown .counter p {
+        font-size: 15px;
+        font-weight: 400;
+        line-height: 1.7;
+    }
+
+}

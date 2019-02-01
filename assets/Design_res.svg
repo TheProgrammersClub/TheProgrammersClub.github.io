@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 270 200">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #eb3569;
+      }
+
+      .cls-2 {
+        fill: #fff;
+      }
+    </style>
+  </defs>
+  <g id="Design_res" transform="translate(-486 -530)">
+    <path id="Rectangle_2" data-name="Rectangle 2" class="cls-1" d="M4,0H266a4,4,0,0,1,4,4V200a0,0,0,0,1,0,0H0a0,0,0,0,1,0,0V4A4,4,0,0,1,4,0Z" transform="translate(486 530)"/>
+    <g id="Design_svg" data-name="Design svg" transform="translate(576.017 589.017)">
+      <g id="Layer_1" data-name="Layer 1" transform="translate(-0.017 -0.017)">
+        <g id="Layer_4" data-name="Layer 4">
+          <path id="Path_17" data-name="Path 17" class="cls-2" d="M45.15,7.933h0l-.172-.23A26.357,26.357,0,1,0,7.7,44.977l.239.22h0L45.15,82.367,82.367,45.15A26.317,26.317,0,1,0,45.149,7.932Z" transform="translate(0.017 0.017)"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

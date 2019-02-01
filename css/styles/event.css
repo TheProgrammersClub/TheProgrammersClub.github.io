@@ -1,0 +1,116 @@
+
+.latest-events {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+#hackathon .feature {
+    color: #fff;
+}
+
+.white-button {
+    background-color: #fff;
+    color: #000;
+    margin-top: 10px;
+}
+
+.wrapper .blue-button {
+    background-color: #0055FF;
+    color: #fff;
+}
+
+.arrange-left {
+    text-align: left;
+}
+
+#pre-event .resource-design {
+    max-width: 410px;
+    max-height: 216px;
+    width: 100%;
+    text-align: center;
+    margin: 0 auto 40px;
+    box-shadow: 0 8px 18px 0 rgba(0, 0, 0, .07), 0 1px 0 0 rgba(0, 0, 0, .07);
+    border-radius: 4px;
+}
+
+/********************************** Media Queries **********************************/
+
+/*Extra small devices (portrait phones, less than 576px)*/
+/* Iphone 6 Plus*/
+@media (max-width: 575.98px) {
+
+    #events .event {
+        margin-bottom: 20px;
+        border-radius: 4px;
+        background-color: #FCF1F1;
+        padding: 40px;
+        text-align: left;
+        display: block;
+        margin-left: 40px;
+        margin-right: 40px;
+    }
+
+    .latest-events {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .event .rounded-image {
+        width: 180px;
+    }
+
+    .block {
+        padding: 40px;
+    }
+
+    .event {
+        width: 100%;
+    }
+
+
+}
+
+/*Medium devices (tablets, 768px and up)*/
+/* Amzon Kindle landscape and Ipad landscape*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+
+    #events .event {
+        margin-bottom: 20px;
+        border-radius: 4px;
+        background-color: #FCF1F1;
+        padding: 90px;
+        width: calc(70% - 20px);
+        text-align: left;
+        display: block;
+    }
+}
+
+/*Large devices (desktops, 992px and up)*/
+/* Ipad Mini 2 */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+
+    #events .event {
+        margin-bottom: 20px;
+        border-radius: 4px;
+        background-color: #FCF1F1;
+        padding: 90px;
+        width: calc(50% - 20px);
+        text-align: left;
+        display: block;
+    }
+}
+
+
+/*Extra large devices (large desktops, 1200px and up)*/
+/* Kindle */
+@media (min-width: 1200px) {
+
+    /*Events*/
+    #events .event {
+        width: calc(50% - 20px);
+    }
+}

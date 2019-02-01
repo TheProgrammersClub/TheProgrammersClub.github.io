@@ -9,19 +9,15 @@
     <!-- Bootstrap CSS -->
     <link type="text/css" rel="stylesheet" href="css/bootstrap/bootstrap.css">
     <!--<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">-->
+    <!-- Custom CSS -->
     <link type="text/css" rel="stylesheet" href="css/styles/common.css">
-    <link type="text/css" rel="stylesheet" href="css/styles/resources.css">
-
+    <link type="text/css" rel="stylesheet" href="css/styles/workshop_details.css">
 
     <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
-    <link rel='icon' type='image/x-icon' href='assets/logo.ico'>
     <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900" rel="stylesheet">
-    <title>Programmer's Club</title>
-
+    <title></title>
 </head>
-<body id="body">
-
+<body>
 
 <nav id="nav" class="nav-main">
     <ul class="nav-list">
@@ -41,111 +37,99 @@
     </span>
 </nav>
 
-<section class="container">
-    <main class="wrapper margin-t-b-120">
-        <h1>Resources</h1>
-        <p class="lead sub-heading">For beginner walkthroughs to programming basics and hands on project.<br>There's
-            something for everyone.<br> Kickstart your new project with these Resources.</p>
+<section class="container margin-b-180">
+    <main class="wrapper">
+        <div class="workshop-design">
+            <img class="workshop-image" src="./assets/pc-image.jpg" alt="Programmer's Club image"/>
+        </div>
+        <h1>Android Workshop</h1>
+        <p class="lead sub-heading">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+            incididunt ut labore et dolore magna aliqua.</p>
 
-
-        <div class="row margin-t-120 arrange-left ">
-            <div class="col-lg-3 col-xl-3 col-sm-12 col-md-6">
-                <div class="resource-image">
-                    <img class="resource-image " src="./assets/Android_res.svg" alt="Android Resources"/>
-                </div>
-                <br>
-                <h5>Android</h5>
-                <p class=" body-heading">
-                    Make Beautiful Material Design App with these resources.
-                </p>
+        <div class="countdown wrapper margin-t-20 margin-b-80">
+            <div class="counter">
+                <h2 id="day" class="strip"></h2>
+                <p class="strip">Days</p>
             </div>
-            <div class="col-lg-3 col-xl-3 col-sm-12 col-md-6">
-                <div class="resource-image">
-                    <img class="resource-image " src="./assets/Web_res.svg" alt="Web Resources"/>
-                </div>
-                <br>
-                <h5>Web</h5>
-                <p class=" body-heading">
-                    All the elements you need to start your own next Web Project.
-                </p>
+            <div class="counter">
+                <h2 id="hour" class="strip"></h2>
+                <p class="strip">Hours</p>
             </div>
-            <div class="col-lg-3 col-xl-3 col-sm-12 col-md-6">
-                <div class="resource-image">
-                    <img class="resource-image " src="./assets/Coding_res.svg" alt="Code Resources"/>
-                </div>
-                <br>
-                <h5>Coding</h5>
-                <p class=" body-heading">
-                    Know how to code for your next Competitive Coding Exam.
-                </p>
+            <div class="counter">
+                <h2 id="minute" class="strip"></h2>
+                <p class="strip">Minutes</p>
             </div>
-            <div class="col-lg-3 col-xl-3 col-sm-12 col-md-6">
-                <div class="resource-image">
-                    <img class="resource-image " src="./assets/Design_res.svg" alt="Design Resources"/>
-                </div>
-                <br>
-                <h5>Design</h5>
-                <p class=" body-heading">
-                    Basic Wireframe Elements to Blueprint your next Big Projct.
-                </p>
+            <div class="counter">
+                <h2 id="second" class="strip"></h2>
+                <p class="strip">Seconds</p>
             </div>
         </div>
+        <button class="black-button button">Register here</button>
     </main>
 </section>
 
-<!--Request Resources-->
-<section id="request" class="container-fluid black-background">
-    <div class="wrapper margin-t-b-160 container">
-        <div class="margin-t-b-120">
-            <h2 class="white-heading"> Request Resources</h2>
-            <p class="hackathon-info small-white sub-heading">Get Curated content and Design Inspiration delievered
-                straight to your
-                inbox.</p>
-            <a href="/requestresource" class="blue-button button">Send Request</a>
+<!--Learn-->
+<!--Prerequisites-->
+<section id="learn" class="container margin-b-180">
+    <div class="wrapper">
+        <h3>What you will learn</h3>
+        <p class="lead resources-info sub-heading">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt.</p>
+    </div>
+</section>
+
+
+<!--Prerequisites-->
+<section id="prerequisites" class="container margin-b-180">
+    <div class="wrapper">
+        <h3>Prerequisites</h3>
+        <p class="lead resources-info sub-heading">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt.</p>
+        <div class="row margin-t-80 margin-b-80">
+            <div class="col-lg-6 col-xl-6 col-md-6 col-sm-1 ">
+                <div class="learn-prerequisites margin-20">
+                    <img class="prerequisites-image " src="./assets/learn-java.svg" alt="Learn Java"/>
+                </div>
+            </div>
+            <div class="col-lg-6 col-xl-6 col-md-6 col-sm-1">
+                <div class="learn-prerequisites margin-20">
+                    <img class="prerequisites-image " src="./assets/learn-android.svg" alt="Learn Android"/>
+                </div>
+            </div>
+        </div>
+
+        <div class="links align-left">
+            <h4>Download Links</h4>
+            <p class="link-heading">Android Studio &nbsp;&nbsp;<a href="#" class="link">https://developer.android.com/studio</a>
+            </p>
+            <p class="link-heading">Java JDK &nbsp;&nbsp;<a href="#" class="link">https://www.oracle.com/technetwork/java/javase/downloads/index.html</a>
+            </p>
+            <p class="link-heading">Install Android Studio &nbsp;&nbsp;<a href="#" class="link">https://www.youtube.com/watch?v=Z98hXV9GmzY</a>
+            </p>
         </div>
     </div>
 </section>
 
-<!--Advanced Resources-->
-<section class="container">
-    <main class="wrapper margin-t-b-120">
-        <h2>Advanced Resources</h2>
-        <p class="lead sub-heading">Get advanced links,modules and resources created by developer and publishers.</p>
-
-        <div class="row margin-t-80 arrange-left">
-            <div class="col-lg-4 col-xl-4 col-md-12 col-sm-12 ">
-                <div class="resource-image">
-                    <img class="resource-image " src="./assets/res.svg" alt="Android"/>
-                </div>
-                <br>
-                <h4>IOT</h4>
-                <p class="body-heading">
-                    Get better understanding of Internet Of Things and connect any device to Internet.
-                </p>
-            </div>
-            <div class="col-lg-4 col-xl-4 col-md-12 col-sm-12 ">
-                <div class="resource-image">
-                    <img class="resource-image " src="./assets/res.svg" alt="Web"/>
-                </div>
-                <br>
-                <h4>Machine Learning</h4>
-                <p class="body-heading">
-                    Learn how ML models are created and workes so that you can get started with ML in your project.
-                </p>
-            </div>
-            <div class="col-lg-4 col-xl-4 col-md-12 col-sm-12 ">
-                <div class="resource-img">
-                    <img class="resource-image " src="./assets/res.svg" alt="Android"/>
-                </div>
-                <br>
-                <h4>Data Science</h4>
-                <p class="body-heading">
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt.
-                </p>
+<!--Pricing-->
+<section id="pricing" class="container">
+    <div class="wrapper">
+        <h3>Pricing</h3>
+        <p class="sub-heading lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+            incididunt ut labore et dolore magna aliqua.</p>
+        <div class="pricing-card align-left margin-t-60">
+            <div class="pricing-card-content">
+                <p class="body-heading">Student</p>
+                <h3><span class="currency">&#x20b9;</span>50</h3>
+                <p class="body-heading pricing-icon">Unlimited knowledge and love</p>
+                <p class="body-heading pricing-icon">Free wifi</p>
+                <p class="body-heading pricing-icon">Free resources</p>
+                <p class="body-heading pricing-icon">Dedicated support & training</p>
+                <button class="white-button button">Register here</button>
             </div>
         </div>
-    </main>
+    </div>
 </section>
+
 
 <!-- Team-->
 <section id="team" class="container">
@@ -156,7 +140,6 @@
             ut labore et dolore magna aliqua.</p>
     </div>
 </section>
-<!--team ends-->
 
 <!--Footer-->
 <footer id="footer" class="container-fluid">
@@ -205,6 +188,6 @@
 <script type="text/javascript" src="js/bootstrap/bootstrap.js"></script>
 
 <!-- Custom JS -->
-<script type="text/javascript" src="js/main.js"></script>
+<script type="text/javascript" src="js/workshop.js"></script>
 </body>
 </html>
